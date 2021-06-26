@@ -1,0 +1,189 @@
+
+@media (max-width: 400px) {
+  .main-container {
+    width: 100%;
+    flex-wrap: wrap;
+    font-size: 1.2em;
+  }
+  aside,
+  main {
+    flex: 100%;
+  }
+}
+
+body {
+    display: flex;
+    justify-content: center;
+  }
+  .main-container {
+    display: flex;
+    width: 1200px;
+    background-color: #d1d1d1;
+  }
+  
+  /* ------------- GENERAL -------------- */
+  ul {
+    list-style-type: none;
+  }
+  h1,
+  h2 {
+    text-transform: uppercase;
+  }
+  
+  /* ------------- ASIDE ---------------- */
+  aside {
+    background-color: #84b6f4;
+    flex-basis: 25%;
+    margin-right: 20px;
+    padding: 0 30px;
+  }
+  aside * {
+    color: #ffffff;
+  }
+  aside h2 {
+    letter-spacing: 5px;
+  }
+
+  #profile-pic {
+    text-align: center;
+  }
+  .main-container :first-child section{
+    padding: 20px;
+
+  }
+  .main-container h2{
+    font-size: 25px;
+  }
+  #profile-pic img{
+    border-radius: 100%;
+    width: 150px;
+    border: 6px solid rgb(207, 207, 207);
+    cursor: pointer;
+    user-select: none;
+    filter: grayscale(100%);
+  }
+  
+
+  
+  /* ------------- MAIN ---------------- */
+  main {
+    flex-basis: 76%;
+    
+  }
+  main h3,h4{
+    padding-left: 80px;
+    font-family:  Helvetica;
+    font-size: medium;
+    
+  }
+  main h4{
+    font-family: helvetica;
+    font-size: small;
+    color: rgb(129, 129, 129);
+    
+  }
+
+  main h3{
+    
+    color: rgb(29, 29, 29);
+    text-transform: capitalize;
+    word-spacing: 3px;
+    font-size: 20px;
+    padding-top: 50px;;
+
+  }
+  main section > h2 {
+    
+    
+    text-align: left;
+    font-size: 19px;
+    padding-right: 10px;
+    padding-top: 30PX;;
+    font-family: georgia;
+    background-color: #7881b6;
+    padding-bottom: 15px;
+    
+    background-color: #cfaaba;
+    
+
+  }
+  
+  #border h3.h4.p{
+    padding-left: 80px;
+    
+    
+    
+  }
+ 
+  article h3{
+    padding-left: 80px;
+  }
+  article h4 {
+    font-weight: bold;
+    padding-left: 80px;
+  }
+  main section  p{
+
+    padding-left: 80px;
+    
+  }
+  .correo{
+    font-size: 18px;
+  }
+  .redes{
+    
+    font-size: 20px;
+    padding 50px;
+    
+  }
+  .redes a{
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    flex-direction: column;
+    font-size: 17px;
+    
+  }
+  .redes i{
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: #c4c7ca;
+  }
+  
+  
+  /* DL */
+  dl {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  dt,
+  dd {
+    line-height: 1.5em;
+    border-top: 1px solid white;
+    flex-basis: 40%;
+    margin: 0;
+  }
+  dt:last-of-type,
+  dd:last-of-type {
+    border-bottom: 1px solid white;
+  }
+  dt {
+    font-weight: bolder;
+  }
+  
+  
+  /* Meter */
+  meter {
+    display: block;
+    width: 80%;
+  }
+  meter::-webkit-meter-optimum-value {
+    background: none;
+    background-color: #b1a09a;
+  }
+  meter::-webkit-meter-bar {
+    background: none;
+    background-color: #FFFFFF;
+  }
+  
+  
